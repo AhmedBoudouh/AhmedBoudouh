@@ -39,7 +39,7 @@ All projects below were built during my Cloud Computing program or as personal w
 Academic project — built a cloud-native e-commerce platform using a microservices architecture. Each service (store front, product catalog, order processing, admin panel) is independently containerized and deployable. Introduced me to real-world cloud application design patterns using multiple languages across services.
 > JavaScript · Java · Vue.js · Go · Rust · Docker · Kubernetes · Microservices
 
-### [Azure Infrastructure as Code — Final Project](https://github.com/Gabriel10-10/cst8918-final-project-group-2) *(Group Project)*
+### [Azure Infrastructure as Code — Final Project](https://github.com/AhmedBoudouh/cst8918-final-project-group-2) *(Group Project)*
 Final project for the cloud infrastructure course — provisioned and managed Azure resources using Terraform. Covered modular IaC design, remote state management, and CI/CD pipeline integration for automated deployments.
 > Terraform · HCL · Azure · IaC · CI/CD
 
