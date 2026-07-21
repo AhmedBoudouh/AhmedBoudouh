@@ -58,6 +58,10 @@ Microservices e-commerce platform on **Azure Kubernetes Service**: independently
 Provisioned and managed Azure resources with **modular Terraform and remote state**; automated plan/apply via CI/CD for reproducible deployments across environments. Infrastructure quality enforced with **TFLint** (static analysis) and **tfsec** (security scanning).
 > Terraform · HCL · Azure · Remote State · tfsec · TFLint · CI/CD
 
+### [WCAG Learning Platform — Cloud-Deployed](https://github.com/AhmedBoudouh/wcag-accessibility-webapp) · *Group Project*
+Full-stack accessibility-learning platform shipped as a **cloud-native app**: provisioned on Azure with **modular Terraform** (Container Apps, PostgreSQL Flexible Server, ACR, Key Vault, Log Analytics) and deployed via **GitHub Actions CI/CD**. Containerized with Docker; **React + TypeScript** frontend and **FastAPI** backend (async SQLAlchemy, JWT/OAuth2) with PostgreSQL 15 + Redis 7.
+> Azure · Terraform · Container Apps · Docker · CI/CD · FastAPI · React · TypeScript
+
 ### [Serverless Expense-Approval — Durable Functions vs Logic Apps](https://github.com/AhmedBoudouh/azure-serverless-functions/tree/main/CST8917-FinalProject-AhmedBoudouh)
 Implemented the *same* human-in-the-loop approval workflow **two ways** — Azure **Durable Functions** (Python v2) and **Logic Apps + Service Bus** — then compared them across development experience, testability, error handling, human interaction, observability, and cost, with a reasoned recommendation. Demonstrates client/orchestrator/activity-chaining and the `wait_for_external_event` + durable-timer pattern.
 > Python · Azure Durable Functions · Logic Apps · Service Bus · Serverless · Event-Driven
@@ -68,11 +72,7 @@ Cloud migration strategy work — workload assessment and lift-and-shift vs. rep
 
 ---
 
-## 💻 Full-Stack & Security Projects
-
-### [WCAG Learning Platform](https://github.com/AhmedBoudouh/wcag-accessibility-webapp) · *Group Project*
-Full-stack platform where developers practice WCAG 2.1 AA rules by fixing HTML/CSS, validated in real time by a backend engine with scoring and progress tracking. **React + TypeScript** frontend; **FastAPI** backend with async SQLAlchemy and JWT/OAuth2; PostgreSQL 15 + Redis 7; fully containerized with **Docker Compose**; deployed to Azure with **Terraform** (Container Apps, PostgreSQL Flexible Server, ACR, Key Vault) and GitHub Actions CI/CD.
-> React · TypeScript · FastAPI · PostgreSQL · Redis · Docker Compose · Terraform · Azure
+## 🔐 Security Projects
 
 ### [Secure Access Control System](https://github.com/AhmedBoudouh/portfolio/tree/main/secure-access-control-system)
 Independently designed and built a simulation of a secure access-control system in Python — card-based identity verification, OTP authentication, protection of PIN/OTP data, and per-zone authorization. All logic and architecture built from scratch.
