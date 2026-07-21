@@ -26,7 +26,7 @@ I'm looking for a **junior Cloud/DevOps role** (Sherbrooke on-site or remote acr
 Azure Kubernetes Service (AKS) · Azure Functions · Container Apps · Service Bus · Container Registry · Key Vault · PostgreSQL Flexible Server · Storage · IAM
 
 **Infrastructure as Code**
-Terraform · Terratest · TFLint
+Terraform · tfsec · TFLint
 
 **CI/CD & Containers**
 GitHub Actions · Git/GitHub · Docker · Docker Compose · Kubernetes · Linux
@@ -55,8 +55,8 @@ Microservices e-commerce platform on **Azure Kubernetes Service**: independently
 > AKS · Azure Service Bus · Azure Functions · Docker · Kubernetes · CI/CD · Microservices
 
 ### [Multi-Environment Azure Infrastructure as Code](https://github.com/AhmedBoudouh/weatherapp-aks-cicd) · *Group Project*
-Provisioned and managed Azure resources with **modular Terraform and remote state**; automated plan/apply via CI/CD for reproducible deployments across environments. Infrastructure quality enforced with **TFLint** (static analysis) and **Terratest** (automated infrastructure tests).
-> Terraform · HCL · Azure · Remote State · Terratest · TFLint · CI/CD
+Provisioned and managed Azure resources with **modular Terraform and remote state**; automated plan/apply via CI/CD for reproducible deployments across environments. Infrastructure quality enforced with **TFLint** (static analysis) and **tfsec** (security scanning).
+> Terraform · HCL · Azure · Remote State · tfsec · TFLint · CI/CD
 
 ### [Serverless Expense-Approval — Durable Functions vs Logic Apps](https://github.com/AhmedBoudouh/azure-serverless-functions/tree/main/CST8917-FinalProject-AhmedBoudouh)
 Implemented the *same* human-in-the-loop approval workflow **two ways** — Azure **Durable Functions** (Python v2) and **Logic Apps + Service Bus** — then compared them across development experience, testability, error handling, human interaction, observability, and cost, with a reasoned recommendation. Demonstrates client/orchestrator/activity-chaining and the `wait_for_external_event` + durable-timer pattern.
